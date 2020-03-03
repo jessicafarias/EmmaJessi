@@ -1,3 +1,37 @@
-#pricing{
+#video {
   text-align: center;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#pricing ul {
+  list-style: none;
+}
+
+#pricing .product {
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pricing .product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#pricing .product > h2 {
+  margin-top: 15px;
+}
+
+#pricing .product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
 }
