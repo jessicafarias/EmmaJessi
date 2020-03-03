@@ -1,3 +1,38 @@
+header {
+    position: sticky; 
+    top: 0; 
+    width: 100%;
+    min-height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    list-style: none; 
+  }
+
+a {
+    color: #000; 
+    text-decoration: none;
+  }
+.logo {
+    width: 60vw;
+}
+
+.logo > img {
+    max-width: 300px; 
+    display: flex; 
+    margin-left: 20px;
+  }
+
 #pricing{
   text-align: center;
 }
