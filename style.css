@@ -1,3 +1,13 @@
+#products {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#products .icon {
+  text-align: center;
+  color: darkorange;
+}
+
 #video {
   text-align: center;
 }
@@ -14,6 +24,8 @@
   border-style: solid;
   margin-left: 10px;
   margin-right: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
 }
 
 #pricing .product > .level {
@@ -37,55 +49,53 @@
 }
 
 header {
-    position: sticky; 
-    top: 0; 
-    width: 100%;
-    min-height: 85px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#nav-bar ul{
-    min-width: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 20px;
+#nav-bar ul {
+  min-width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
 }
 #nav-bar li {
-    list-style: none; 
-  }
+  list-style: none;
+}
 
 #nav-bar a {
-    color: #000; 
-    text-decoration: none;
-  }
+  color: #000;
+  text-decoration: none;
+}
 .logo {
-    width: 60vw;
+  width: 60vw;
 }
 
 .logo > img {
-    max-width: 300px; 
-    /*display: flex;*/ 
-    margin-left: 20px;
+  max-width: 300px;
+  /*display: flex;*/
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
   }
 
-  @media (max-width: 650px) {
-    .logo {
-      margin-top: 15px;
-      width: 100%;
-    }
-
-    #nav-bar ul{
-        flex-direction: column;
-    }
+  #nav-bar ul {
+    flex-direction: column;
   }
+}
 
-  @media(max-width:500px)
-  {
-    header{
-        flex-direction: column;
-    }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
   }
+}
