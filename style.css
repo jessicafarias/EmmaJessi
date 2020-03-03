@@ -1,3 +1,20 @@
+
+ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+  }
+
+a {
+    color: #000; 
+    text-decoration: none;
+  }
+
+
 #pricing{
   text-align: center;
 }
