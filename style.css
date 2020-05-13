@@ -121,6 +121,7 @@ header {
 
     #nav-bar ul{
         flex-direction: column;
+        margin:5px;
     }
   }
 
