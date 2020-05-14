@@ -61,14 +61,6 @@ header {
     
 }
 
-#divform{
-    align-items: center;
-    text-align: center;
-    display: block;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
 #divform p{
     font-size: 25px;
 }
@@ -109,7 +101,6 @@ header {
 
 .logo > img {
     max-width: 300px; 
-    /*display: flex;*/ 
     margin-left: 20px;
   }
 
